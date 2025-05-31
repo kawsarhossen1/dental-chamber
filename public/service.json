@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "treatmentName": "Teeth Whitening",
+    "treatmentDescription": "Brighten your smile with our professional teeth whitening service, safe and effective for all ages.",
+    "image": "https://i.ibb.co/JF3rKMpN/d8.jpg",
+    "cost": "৳12,000",
+    "checkoutMore": "/treatments/teeth-whitening"
+  },
+  {
+    "id": 2,
+    "treatmentName": "Root Canal Therapy",
+    "treatmentDescription": "Save your natural tooth with our pain-free root canal treatment using the latest technology.",
+    "image": "https://i.ibb.co/9kWBR3hj/d7.jpg",
+    "cost": "৳30,000",
+    "checkoutMore": "/treatments/root-canal-therapy"
+  },
+  {
+    "id": 3,
+    "treatmentName": "Braces(Orthodontics)",
+    "treatmentDescription": "Correct misaligned teeth and bite issues with our customized orthodontic treatment plans.",
+    "image": "https://i.ibb.co/XkSgzgvn/d6.jpg",
+    "cost": "৳150,000",
+    "checkoutMore": "/treatments/braces"
+  },
+  {
+    "id": 4,
+    "treatmentName": "Dental Implants",
+    "treatmentDescription": "Restore your smile with permanent, natural-looking dental implants.",
+    "image": "https://i.ibb.co/nx5bJZm/d5.jpg",
+    "cost": "৳200,000",
+    "checkoutMore": "/treatments/dental-implants"
+  },
+  {
+    "id": 5,
+    "treatmentName": "Gum Disease Treatment",
+    "treatmentDescription": "Comprehensive care for bleeding gums, bad breath, and gum infections using modern techniques.",
+    "image": "https://i.ibb.co/Myk16jvN/d4.jpg",
+    "cost": "৳18,000",
+    "checkoutMore": "/treatments/gum-disease"
+  },
+  {
+    "id": 6,
+    "treatmentName": "Tooth Extraction",
+    "treatmentDescription": "Painless removal of damaged or decayed teeth in a comfortable and sterile environment.",
+    "image": "https://i.ibb.co/KxZNpFjy/d3.jpg",
+    "cost": "৳9,000",
+    "checkoutMore": "/treatments/tooth-extraction"
+  },
+  {
+    "id": 7,
+    "treatmentName": "Dental Cleaning",
+    "treatmentDescription": "Professional cleaning to remove plaque and tartar, leaving your teeth fresh and polished.",
+    "image": "https://i.ibb.co/0psQjk0w/d2.jpg",
+    "cost": "৳7,500",
+    "checkoutMore": "/treatments/dental-cleaning"
+  },
+  {
+    "id": 8,
+    "treatmentName": "Cosmetic Veneers",
+    "treatmentDescription": "Enhance the appearance of your teeth with thin, custom-made shells designed to cover imperfections.",
+    "image": "https://i.ibb.co/wNS9mtp2/d1.jpg",
+    "cost": "৳80,000",
+    "checkoutMore": "/treatments/cosmetic-veneers"
+  }
+]

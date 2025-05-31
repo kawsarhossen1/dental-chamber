@@ -1,0 +1,50 @@
+[
+  {
+    "reviewId": 1,
+    "name": "Sarah Johnson",
+    "userImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "review": "Absolutely fantastic service! My project was delivered on time and exceeded my expectations."
+  },
+  {
+    "reviewId": 2,
+    "name": "Michael Lee",
+    "userImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "review": "Very professional and responsive. Highly recommended for anyone looking for quality work."
+  },
+  {
+    "reviewId": 3,
+    "name": "Emily Davis",
+    "userImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "review": "Great experience from start to finish. Communication was smooth and the result was perfect."
+  },
+  {
+    "reviewId": 4,
+    "name": "James Smith",
+    "userImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "review": "I'm really impressed with the dedication and skill. Will definitely work together again!"
+  },
+  {
+    "reviewId": 5,
+    "name": "Olivia Brown",
+    "userImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "review": "Delivered excellent work with a very quick turnaround. Highly satisfied!"
+  },
+  {
+    "reviewId": 6,
+    "name": "Daniel Wilson",
+    "userImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "review": "Top-notch service and support. Truly cares about client satisfaction. 10/10!"
+  },
+  {
+    "reviewId": 7,
+    "name": "Sophia Martinez",
+    "userImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "review": "Amazing work ethic and attention to detail. Loved working with you!"
+  },
+  {
+    "reviewId": 8,
+    "name": "William Anderson",
+    "userImage": "https://randomuser.me/api/portraits/men/91.jpg",
+    "review": "Professional, efficient, and friendly. A pleasure to collaborate with!"
+  }
+]
