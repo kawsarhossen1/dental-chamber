@@ -12,9 +12,10 @@ const Navbar = () => {
         <NavLink to="/profile">Profile</NavLink>
       </div>
       <div>
-        <button className="btn btn-primary mr-4 text-white">Login</button>
+        <NavLink to="/login">
+          <button className="btn btn-primary mr-4 text-white">Login</button>
+        </NavLink>
       </div>
-      
     </div>
   );
 };

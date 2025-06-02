@@ -13,7 +13,7 @@ const Modal = () => {
             <label className="block text-sm font-medium">First Name:</label>
             <input
               type="text"
-              placeholder="Primary"
+              placeholder="Your First Name"
               className="w-full border-2 border-indigo-500 rounded px-3 py-2"
               name="Fname"
             />
@@ -23,7 +23,7 @@ const Modal = () => {
             <label className="block text-sm font-medium">Last Name:</label>
             <input
               type="text"
-              placeholder="Primary"
+              placeholder="Your Last Name"
               className="w-full border-2 border-indigo-500 rounded px-3 py-2"
               name="Lname"
             />
@@ -33,7 +33,7 @@ const Modal = () => {
             <label className="block text-sm font-medium">Email:</label>
             <input
               type="email"
-              placeholder="Primary"
+              placeholder="Your Email"
               className="w-full border-2 border-indigo-500 rounded px-3 py-2"
               name="email"
             />
@@ -43,7 +43,7 @@ const Modal = () => {
             <label className="block text-sm font-medium">Phone Number:</label>
             <input
               type="tel"
-              placeholder="Primary"
+              placeholder="Your Phone Number"
               className="w-full border-2 border-indigo-500 rounded px-3 py-2"
               name="phone"
             />
@@ -64,7 +64,7 @@ const Modal = () => {
             <label className="block text-sm font-medium">Address:</label>
             <input
               type="text"
-              placeholder="Primary"
+              placeholder="Your Address"
               className="w-full border-2 border-indigo-500 rounded px-3 py-2"
               name="address"
             />

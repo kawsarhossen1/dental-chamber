@@ -14,7 +14,7 @@ const ServiceCard = ({ service }) => {
           <div className="badge badge-secondary">{cost}</div>
         </h2>
         <p>{treatmentDescription}</p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-">
           <NavLink to={`/details/${id}`}>
             <div className=" btn btn-primary btn-outline">Checkout More</div>
           </NavLink>

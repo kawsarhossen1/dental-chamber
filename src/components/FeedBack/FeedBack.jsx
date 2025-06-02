@@ -7,10 +7,10 @@ const FeedBack = ({ feedBackData }) => {
   const visibleFeedbacks = showAll ? feedBackData : feedBackData.slice(0, 3);
 
   return (
-    <div className="mt-8">
+    <div className="mt-8 block ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {visibleFeedbacks.map((feed) => (
-          <div key={feed.reviewId} className="card bg-base-100 w-96 shadow-sm">
+          <div key={feed.reviewId} className="card bg-base-100 w-96 shadow-sm justify-center items-center">
             <div className="p-4">
               <div className="flex justify-between items-center mb-2">
                 <img
