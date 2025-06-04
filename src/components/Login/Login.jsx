@@ -1,9 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { authContext } from "../AuthProvider/AuthProvider";
 import { NavLink } from "react-router-dom";
 
 const Login = () => {
   const { handleGoogleLogin, handleLogin } = useContext(authContext);
+  const [error, setError] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -11,7 +12,11 @@ const Login = () => {
     const password = e.target.password.value;
 
     console.log(email, password);
-    handleLogin(email, password);
+    handleLogin(email, password)
+      .then((res) => {})
+      .catch((err) => {
+        setError(err.message);
+      });
   };
   return (
     <div>
@@ -45,12 +50,25 @@ const Login = () => {
         </div>
 
         {/* Submit Button */}
-        <button
-          type="submit"
-          className="w-full bg-blue-500 text-white p-2 rounded hover:btn-primary"
-        >
-          Login
-        </button>
+        <div className="flex gap-4">
+          <button
+            type="submit"
+            className=" bg-blue-500 text-white p-2 rounded hover:btn-primary w-[50%] font-bold"
+          >
+            Login
+          </button>
+          <button
+            className=" bg-blue-500 text-white p-2 rounded hover:btn-primary w-[50%] font-bold"
+            onClick={handleGoogleLogin}
+          >
+            Google Login
+          </button>
+        </div>
+        {error && (
+          <p className="text-red-500 text-center mt-2">
+            {error.split("/")[1].slice(0, 18)}
+          </p>
+        )}
       </form>
     </div>
   );

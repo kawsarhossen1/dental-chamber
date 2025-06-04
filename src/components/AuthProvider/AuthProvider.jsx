@@ -17,16 +17,16 @@ const AuthProvider = ({ routes }) => {
   const [user, setUser] = useState(null);
 
   const handleRegister = (email, password) => {
-    createUserWithEmailAndPassword(auth, email, password);
+    return createUserWithEmailAndPassword(auth, email, password);
   };
   const handleLogin = (email, password) => {
-    signInWithEmailAndPassword(auth, email, password);
+    return signInWithEmailAndPassword(auth, email, password);
   };
   const handleGoogleLogin = () => {
-    signInWithPopup(auth, googleProvider);
+    return signInWithPopup(auth, googleProvider);
   };
   const manageProfile = (name, image) => {
-    updateProfile(auth.currentUser, {
+    return updateProfile(auth.currentUser, {
       displayName: name,
       photoURL: image,
     });

@@ -52,6 +52,7 @@ const Register = () => {
             name="name"
             className="w-full border p-2 rounded"
             placeholder="Enter your full name"
+            required
           />
         </div>
 
@@ -78,6 +79,7 @@ const Register = () => {
             name="email"
             className="w-full border p-2 rounded"
             placeholder="Enter your email"
+            required
           />
         </div>
 
@@ -89,6 +91,7 @@ const Register = () => {
             name="password"
             className="w-full border p-2 rounded"
             placeholder="Enter your password"
+            required
           />
         </div>
 
